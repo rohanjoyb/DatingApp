@@ -8,8 +8,8 @@ using Microsoft.EntityFrameworkCore;
 
 namespace DatingApp.API.Controllers
 {
-    [Route("api/[controller]")]
-    [ApiController]
+    [Route("api/[controller]")]/*Attribute routing */
+    [ApiController]/* If we use ApiController we need to use attribute routing */
     public class ValuesController : ControllerBase
     {
         private readonly DataContext _context;
